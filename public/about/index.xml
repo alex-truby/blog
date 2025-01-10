@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Abouts on Posts</title>
+    <title>About Me. on Posts</title>
     <link>http://localhost:1313/about/</link>
-    <description>Recent content in Abouts on Posts</description>
+    <description>Recent content in About Me. on Posts</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>http://localhost:1313/about/about_me/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/about_me/</guid>
-      <description>&lt;h1 id=&#34;hi-im-alex&#34;&gt;Hi, I&amp;rsquo;m Alex!&lt;/h1&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal:&lt;/h2&gt;&#xA;&lt;h2 id=&#34;passions&#34;&gt;Passions&lt;/h2&gt;&#xA;&lt;h2 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h2&gt;&#xA;&lt;p&gt;A fun fact - I&amp;rsquo;ve recently taken up photography, and all photos you see on this blog are taken by me!&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

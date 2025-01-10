@@ -1,0 +1,60 @@
+/* Uniform Background Color */
+.article {
+    background-color: #f0f0f0;
+    /* Replace with desired background color */
+}
+
+/* General Styling for Text */
+.about-content {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 800px;
+    line-height: 1.6;
+    color: #000000;
+    /* Black Text Color */
+    font-family: "Arial", sans-serif;
+    /* Default Font */
+}
+
+/* Section Styling */
+.about-header {
+    color: #000000;
+    /* Header Text Color */
+    font-family: "Georgia", serif;
+    /* Header Font */
+}
+
+.about-aside {
+    background-color: #f0f0f0;
+    color: #000000;
+    font-family: "Courier New", monospace;
+    /* Sidebar Font */
+}
+
+/* Image Styling */
+.about-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.img-left {
+    float: left;
+    margin: 10px 20px 10px 0;
+}
+
+.img-right {
+    float: right;
+    margin: 10px 0 10px 20px;
+}
+
+.img-center {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Custom Text Color Class */
+.about-me-text {
+    color: #000000;
+    /* Black Text Color */
+}

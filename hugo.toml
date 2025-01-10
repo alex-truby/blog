@@ -78,7 +78,7 @@ featured_image_class = "cover bg-center"
 # choose a color dimming class for the page or site header from any on this page: https://tachyons.io/docs/themes/skins/, preface it with "bg-" and add the value such as "-X0" where X is in [1,9]
 cover_dimming_class = "bg-black-30"
 recent_posts_number = 3
-custom_css = ["menu.css"]
+custom_css = ["menu.css", "about_me.css"]
 
 [params.ananke.social.share]
 networks = [

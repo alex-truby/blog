@@ -1,6 +1,8 @@
 +++
 date = '2025-01-08T19:51:26-07:00'
 draft = false
+description = "The intro."
+featured_image = "/images/baja_cacti_ocean.jpg"
 categories = ['water', 'tech']
 categories_weight = 44
 tags = ['earth-observation', 'water-resources']
