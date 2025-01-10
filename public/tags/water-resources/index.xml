@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Water-Resources on Posts</title>
+    <link>http://localhost:1313/tags/water-resources/</link>
+    <description>Recent content in Water-Resources on Posts</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 08 Jan 2025 19:51:26 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/water-resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Wed, 08 Jan 2025 19:51:26 -0700</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;why-am-i-here&#34;&gt;Why am I here?&lt;/h2&gt;&#xA;&lt;p&gt;As an avid traveler and water nerd, I&amp;rsquo;ve been wanting to combine the two subjects into this passion project for some time now&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

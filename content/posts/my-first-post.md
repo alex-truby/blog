@@ -1,7 +1,12 @@
 +++
 date = '2025-01-08T19:51:26-07:00'
 draft = false
+categories = ['water', 'tech']
+categories_weight = 44
+tags = ['earth-observation', 'water-resources']
+tags_weight = 22
 title = 'My First Post'
+
 +++
 
 ## Why am I here?

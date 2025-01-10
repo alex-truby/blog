@@ -1,0 +1,50 @@
+/* menu.css */
+
+/* Apply hover styles to all main menu items */
+.nav-item>a:hover,
+ul>li>a:hover {
+    /* background-color: rgba(255, 255, 255, 0.5);  */
+    font-weight: bold;
+    /* color: blue;
+    border-radius: 8px;  */
+}
+
+/* Show submenu on hover */
+.nav-item:hover .submenu {
+    display: block;
+}
+
+/* Show submenu with transition */
+.nav-item:hover .submenu {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Smooth transition for submenu appearance */
+.submenu {
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgba(255, 255, 255, 0.0);
+    z-index: 10;
+    border-radius: 8px; /* More rounded edges */
+    text-align: left;
+    padding-left: 0;
+    margin-left: 0;
+    min-width: 100%;
+    box-shadow: none;
+}
+
+/* Ensure the submenu appears above other elements */
+.submenu {
+    z-index: 10;
+    text-align: left;
+}
+
+
+.submenu a {
+    transition: font-weight 0.3s ease;
+    text-align: left;
+    background: none;
+    border: none;
+}

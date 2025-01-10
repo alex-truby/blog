@@ -3,6 +3,50 @@ baseURL = 'https://alextruby.github.io/'
 languageCode = 'en-us'
 theme = 'ananke'
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+# Menu Configuration
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/posts/"
+  weight = 3
+
+# Sub-Menu Items for Tags under Blog
+[[menu.main]]
+  identifier = "water"
+  name = "Water"
+  url = "/categories/water/"
+  parent = "blog"
+  weight = 1
+
+
+[[menu.main]]
+  identifier = "tech"
+  name = "Tech"
+  url = "/categories/tech/"
+  weight = 2
+  parent = "blog"
+
+
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 4
 
 [pagination]
 pagerSize = 3 # this is set low for demonstrating with dummy content. Set to a higher number
@@ -34,6 +78,7 @@ featured_image_class = "cover bg-center"
 # choose a color dimming class for the page or site header from any on this page: https://tachyons.io/docs/themes/skins/, preface it with "bg-" and add the value such as "-X0" where X is in [1,9]
 cover_dimming_class = "bg-black-30"
 recent_posts_number = 3
+custom_css = ["menu.css"]
 
 [params.ananke.social.share]
 networks = [
@@ -48,4 +93,4 @@ networks = [
 
 
 [params.ananke.social.linkedin]
-username = "alextruby"
+username = "alex-truby"
