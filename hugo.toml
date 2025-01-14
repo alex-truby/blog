@@ -48,6 +48,11 @@ theme = 'ananke'
   url = "/projects/"
   weight = 4
 
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+
 [pagination]
 pagerSize = 3 # this is set low for demonstrating with dummy content. Set to a higher number
 

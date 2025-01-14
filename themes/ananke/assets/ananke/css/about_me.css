@@ -11,8 +11,8 @@
     max-width: 800px;
     line-height: 1.6;
     color: #000000;
+    font-family: "Avenir Next", "Avenir", serif;
     /* Black Text Color */
-    font-family: "Arial", sans-serif;
     /* Default Font */
 }
 
@@ -20,14 +20,14 @@
 .about-header {
     color: #000000;
     /* Header Text Color */
-    font-family: "Georgia", serif;
+    font-family: "Avenir Next", "Avenir", serif;
     /* Header Font */
 }
 
 .about-aside {
     background-color: #f0f0f0;
     color: #000000;
-    font-family: "Courier New", monospace;
+    font-family: "Avenir Next", "Avenir", serif;
     /* Sidebar Font */
 }
 
@@ -57,4 +57,66 @@
 .about-me-text {
     color: #000000;
     /* Black Text Color */
+}
+
+/* Additional Image Styling */
+
+/* Full-Width Images */
+.img-full {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Rounded Images */
+.img-rounded {
+    border-radius: 8px; /* Adjust for more or less rounding */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+/* Bordered Images */
+.img-bordered {
+    border: 2px solid #ccc; /* Light gray border */
+    padding: 5px; /* Space between border and image */
+    border-radius: 4px; /* Optional rounding */
+}
+
+/* Images with Captions */
+.img-with-caption {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img-with-caption img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.img-with-caption .caption {
+    font-size: 0.9rem;
+    color: #666; /* Caption color */
+    font-style: italic;
+}
+
+/* Hover Effect on Images */
+.img-hover:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Align Images Horizontally in a Row */
+.img-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px; /* Adjust spacing between images */
+}
+
+.img-row img {
+    flex: 1;
+    max-width: calc(33.333% - 10px); /* Three images per row, adjust as needed */
+    height: auto;
+    border-radius: 4px; /* Optional rounding */
 }
