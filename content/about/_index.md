@@ -18,6 +18,7 @@ To share my journey and passion with like-minded individuals.
 ## Passions
 - Water and its conservation.
 - Adventure and travel.
+ - I've been to 30 countires now (and, hopefully, counting). I love to travel and try make it a point to learn at least the basics of the language and culture anywhere I go. Now, I have a goal to learn about water resources in the areas I visit. I'm sure I won't be able to dive into *every* region I visit, but I hope to highlight even a fraction of the water and climate issues in the places I visit, I will have accomplished my goal!
 
 ## Hobbies
 A fun fact - I've recently taken up photography, and all photos you see on this blog are taken by me!
