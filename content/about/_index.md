@@ -1,6 +1,6 @@
 ---
 title: "About Me."
-description: "Water & Climate Nerd | Adventurer "
+description: "Water & Climate Nerd | Adventurer | Yoga Teacher (In Training)"
 # 1. To ensure Netlify triggers a build on our exampleSite instance, we need to change a file in the exampleSite directory.
 theme_version: '2.8.2'
 layout: about_me
