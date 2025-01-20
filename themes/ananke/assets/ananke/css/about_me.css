@@ -70,8 +70,29 @@
 
 /* Rounded Images */
 .img-rounded {
-    border-radius: 8px; /* Adjust for more or less rounding */
+    float: left;
+    border-radius: 100px; /* Adjust for more or less rounding */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 40%; /* Optional shadow for depth */
+}
+
+.about-me-img-rounded2 {
+    float: left; /* Aligns the image to the left */
+    margin: 0 15px 15px 0; /* Adds space to the right and bottom of the image */
+    border-radius: 50%; /* Makes the image circular */
+    height: 18%;
+    width: 27%; /* Adjusts the size of the image */
+    object-fit: cover; /* Ensures the image fits within the circular shape */
+}
+
+.img-circle {
+    float: left;
+    border-radius: 50%; /* Makes the image a perfect circle */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    width: 150px; /* Set a fixed width for the circle */
+    height: 150px; /* Set a fixed height for the circle */
+    object-fit: cover; /* Ensures the image fits well within the circular shape */
+    overflow: hidden; /* Prevents any overflow outside the circle */
 }
 
 /* Bordered Images */
@@ -119,4 +140,19 @@
     max-width: calc(33.333% - 10px); /* Three images per row, adjust as needed */
     height: auto;
     border-radius: 4px; /* Optional rounding */
+}
+
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 10px; /* Space between images */
+}
+
+.photo-grid img {
+    width: 100%; /* Ensure images fill their grid cell horizontally */
+    height: 200px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Ensures the image is cropped to fit without distortion */
+    border-radius: 5px; /* Optional: adds slight rounding to the corners */
+    overflow: hidden; /* Prevents overflow outside the cell */
 }
