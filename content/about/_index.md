@@ -10,7 +10,7 @@ cascade:
 
 # Welcome!
 
-<img src="/images/cali_doorframe.jpg" alt="Rounded Image" class="about-me-img-rounded2"> 
+<img src="../images/cali_doorframe.jpg" alt="Rounded Image" class="about-me-img-rounded2"> 
 
 Hello! I'm Alex. 
 
