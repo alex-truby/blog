@@ -42,16 +42,30 @@ theme = 'ananke'
   weight = 2
   parent = "blog"
 
+[[menu.main]]
+  identifier = "travel"
+  name = "Travel"
+  url = "/categories/travel/"
+  weight = 2
+  parent = "blog"
 
 [[menu.main]]
-  name = "Projects"
-  url = "/projects/"
+  identifier = "publications"
+  name = "Publications"
+  url = "/publications/"
   weight = 4
+
+[[menu.main]]
+  identifier = "code"
+  name = "Code"
+  url = "/code/"
+  weight = 5
 
 
 [markup]
   [markup.goldmark.renderer]
     unsafe = true
+
 
 [pagination]
 pagerSize = 3 # this is set low for demonstrating with dummy content. Set to a higher number
@@ -63,7 +77,7 @@ pagerSize = 3 # this is set low for demonstrating with dummy content. Set to a h
 contentDir = "content"
 languageCode = 'en-US'
 weight = 1
-title = "Posts"
+title = ""
 
 [sitemap]
 changefreq = "monthly"
@@ -81,7 +95,7 @@ background_color_class = ""
 # choose fitting and alignment styles for the featured image using Tachyons classes such as "cover|contain" for fitting and "bg-top|bg-center|bg-bottom" for alignment, or add any other class space-separated to customize further
 featured_image_class = "cover bg-center"
 # choose a color dimming class for the page or site header from any on this page: https://tachyons.io/docs/themes/skins/, preface it with "bg-" and add the value such as "-X0" where X is in [1,9]
-cover_dimming_class = "bg-black-30"
+cover_dimming_class = "bg-black-20"
 recent_posts_number = 3
 custom_css = ["menu.css", "about_me.css"]
 

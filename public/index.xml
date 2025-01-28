@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Water World on Posts</title>
+    <title>Water World on </title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Water World on Posts</description>
+    <description>Recent content in Water World on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 09 Jan 2025 19:51:26 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/second-post/</link>
-      <pubDate>Thu, 09 Jan 2025 19:51:26 -0700</pubDate>
-      <guid>http://localhost:1313/posts/second-post/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;&#xA;&lt;p&gt;Also, &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;this page&lt;/a&gt; is helpful for getting started with Hugo.&lt;/p&gt;&#xA;&lt;p&gt;This is a test to see if I can link to other repositories!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/alex-truby/aerial_snow_trends_in_southern_chile&#34;&gt;Really old Github Project on Chilean Glacier melt&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;And this is how I might want to display an image from a project.&lt;/p&gt;&#xA;&lt;!-- ![Chile Ice](./images/chile_glacier.png) --&gt;</description>
+      <title>Water in Baja California Sur</title>
+      <link>http://localhost:1313/posts/baja-water-2025/</link>
+      <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/baja-water-2025/</guid>
+      <description>&lt;p&gt;The Baja California Peninsula is a dry, desolate, dusty, and beautiful desert. Driving the length of the peninsula spans just over a thousand miles from Tijuana to Cabo San Lucas (1,040 miles, to be exact). That’s almost the same distance as driving from San Diego to Portland, Oregon. Having driven both stretches in December 2024, I can tell you the variety in landscapes along each route differs drastically. From Oregon to San Diego, you feel as if you’re passing through three or four different countries—maybe even worlds. There’s the rugged Oregon coast, the towering redwoods of Northern California, the rolling hills of wine country, and the Mediterranean-like landscape of Southern California. Once you cross the border into Baja, however, most signs of moisture dissipate, and you’re left with a rugged, dry landscape for the rest of the drive. It doesn’t take long for your vehicle, clothing, and skin to take on the sandy color of the desert.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>My First Post</title>
+      <title>The Rules of the Road in Baja California</title>
+      <link>http://localhost:1313/posts/driving_in_baja/</link>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/driving_in_baja/</guid>
+      <description>&lt;p&gt;Driving in Baja is like driving in Mario Cart - but in real life. Minus 10 points if you hit a pot hole. Don’t drive off rainbow road - there is likely no shoulder before the road drops off into the rough desert landscape riddles with cacti and countless other things that will puncture a tire.&lt;/p&gt;&#xA;&lt;p&gt;If you are making the full trek down from North to South in a vehicle, there is one particular stretch of Hwy 1 that is renowned for its desolation - and for its tire casualties. There are no gas stations for 150 (?) miles in Northern Baja, just before you cross into Sur. There are however, a few industrious palapas that have popped up to sell gallons of gasoline to the poor souls caught unawares. There are also a number of llanteras (tire ‘shops’), for the poor souls who planned ahead for gasoline, but may have let their mind wander a tad too much while driving. It’s minus 100 points in Baja Mario Cart if the pot hole strike decommissions a full tire as well.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Why Behind This Website</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Wed, 08 Jan 2025 19:51:26 -0700</pubDate>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;why-am-i-here&#34;&gt;Why am I here?&lt;/h2&gt;&#xA;&lt;p&gt;As an avid traveler and water nerd, I&amp;rsquo;ve been wanting to combine the two subjects into this passion project for some time now&amp;hellip;&lt;/p&gt;</description>
+      <description>&lt;p&gt;As a water and climate nerd, avid traveler, techie, and novice photographer and writer, I had long been&#xA;wanting to mesh together these personal interests in a way that fosters creativity and learning.&lt;/p&gt;&#xA;&lt;p&gt;And so, this website was born!&lt;/p&gt;&#xA;&lt;p&gt;While I do have a rough plan, I&amp;rsquo;m not quite sure yet where this website will go. I do know that&#xA;it&amp;rsquo;s initaial purpose will be to allow me to share my personal interests and projects with those&#xA;who find their way to these pages.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>

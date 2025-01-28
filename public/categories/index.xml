@@ -1,25 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Posts</title>
+    <title>Categories on </title>
     <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on Posts</description>
+    <description>Recent content in Categories on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 08 Jan 2025 19:51:26 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tech</title>
       <link>http://localhost:1313/categories/tech/</link>
-      <pubDate>Wed, 08 Jan 2025 19:51:26 -0700</pubDate>
+      <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/tech/</guid>
       <description></description>
     </item>
     <item>
       <title>Water</title>
       <link>http://localhost:1313/categories/water/</link>
-      <pubDate>Wed, 08 Jan 2025 19:51:26 -0700</pubDate>
+      <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/water/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Travel</title>
+      <link>http://localhost:1313/categories/travel/</link>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/travel/</guid>
       <description></description>
     </item>
   </channel>

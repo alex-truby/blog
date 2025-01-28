@@ -1,0 +1,4 @@
+.leaflet-sbs-range {
+    z-index: 9999; /* Ensure it's not hidden under other elements */
+    pointer-events: auto; /* Ensure interactions are enabled */
+}

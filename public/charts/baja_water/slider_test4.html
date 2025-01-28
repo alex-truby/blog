@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #map {
+            width: 100%;
+            height: 500px;
+        }
+    </style>
+    <title>Side-by-Side Slider</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- Side-by-Side Slider CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/digidem/leaflet-side-by-side/leaflet-side-by-side.css" />
+    <style>
+        #map {
+            width: 100%;
+            height: 500px;
+        }
+        .leaflet-sbs-range {
+            z-index: 9999;
+            pointer-events: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Compare 2013 and 2023 Reflectance</h1>
+    <!-- <img src="/static/images/baja_water/viirs_2013.png" alt="Test 2013" />
+    <img src="http://[::]:8000/static/images/baja_water/viirs_2013.png" alt="Test 2013"> -->
+    <img src="/images/baja_water/viirs_2013.png" alt="Test 2013" />
+    <div id="map"></div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Side-by-Side Slider Plugin -->
+    <script src="https://cdn.jsdelivr.net/gh/digidem/leaflet-side-by-side/leaflet-side-by-side.js"></script>
+
+    <script>
+        // Initialize the map
+        var map = L.map('map').setView([24.1422, -110.3167], 10);
+
+        // Add a base layer
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors',
+        }).addTo(map);
+
+        // Define the bounds (adjust to match your image's geographic extent)
+        // var bounds = [[24.0, -110.5], [24.3, -110.0]];
+        var bounds = [[23.056468519001115, -111.49595450262255], [25.228389819776808, -109.13135194180765]];
+
+        var overlay2013 = L.imageOverlay('/images/baja_water/viirs_2013.png', bounds).addTo(map);
+        var overlay2023 = L.imageOverlay('/images/baja_water/viirs_2023.png', bounds).addTo(map);
+        // Add the side-by-side slider
+
+        
+        L.control.sideBySide(overlay2013, overlay2023).addTo(map);
+
+        // map.whenReady(function () {
+        //     L.control.sideBySide(overlay2013, overlay2023).addTo(map);
+        // });
+
+        // var overlay2013 = L.imageOverlay('/images/baja_water/viirs_2013.png', bounds);
+        // var overlay2023 = L.imageOverlay('/images/baja_water/viirs_2023.png', bounds);
+
+        // // Add the side-by-side slider
+        // var sideBySide = L.control.sideBySide(overlay2013, overlay2023).addTo(map);
+
+
+        // var overlay2013 = L.imageOverlay('/images/baja_water/viirs_2013.png', bounds);
+        // var overlay2023 = L.imageOverlay('/images/baja_water/viirs_2023.png', bounds);
+
+
+        // // Add the side-by-side slider
+        // L.control.sideBySide(overlay2013, overlay2023).addTo(map);
+    </script>
+</body>
+</html>

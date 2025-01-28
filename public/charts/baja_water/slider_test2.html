@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #map {
+            width: 100%;
+            height: 500px;
+        }
+    </style>
+    <title>Side-by-Side Slider</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- Side-by-Side Slider CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/digidem/leaflet-side-by-side/leaflet-side-by-side.css" />
+</head>
+<body>
+    <h1>Compare 2013 and 2023 Reflectance</h1>
+    <div id="map"></div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Side-by-Side Slider Plugin -->
+    <script src="https://cdn.jsdelivr.net/gh/digidem/leaflet-side-by-side/leaflet-side-by-side.js"></script>
+
+    <script>
+        // Initialize the map
+        var map = L.map('map').setView([24.1422, -110.3167], 10);
+
+        // Add a base layer
+        var baseLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors',
+        }).addTo(map);
+
+        // Define the bounds for the image overlays
+        var bounds = [[23.056468519001115, -111.49595450262255], [25.228389819776808, -109.13135194180765]];
+
+        // Add the image overlays
+        var overlay2013 = L.imageOverlay('/images/baja_water/viirs_2013.png', bounds);
+        var overlay2023 = L.imageOverlay('/images/baja_water/viirs_2023.png', bounds);
+
+        // Add layer toggle control
+        var overlayMaps = {
+            "2013 Reflectance": overlay2013,
+            "2023 Reflectance": overlay2023
+        };
+
+        var baseMaps = {
+            "Base Map": baseLayer
+        };
+
+        L.control.layers(baseMaps, overlayMaps, { collapsed: false }).addTo(map);
+
+        // Ensure both overlays are added to the map initially for the slider to work
+        overlay2013.addTo(map);
+        overlay2023.addTo(map);
+    </script>
+</body>
+</html>

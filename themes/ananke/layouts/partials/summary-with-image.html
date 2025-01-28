@@ -14,7 +14,7 @@ More info here: https://github.com/theNewDynamic/gohugo-theme-ananke/releases/ta
         </div>
       {{ end }}
       <div class="blah w-100{{ if $featured_image }} w-60-ns {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr3-ns" "pl3-ns" }}{{ end }}">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
+        <h1 class="f3 fw1 Avenir mt0 lh-title">
           <a href="{{.RelPermalink}}" class="color-inherit dim link">
             {{ .Title }}
             </a>
@@ -23,7 +23,8 @@ More info here: https://github.com/theNewDynamic/gohugo-theme-ananke/releases/ta
           {{ .Summary }}
         </div>
           <a href="{{.RelPermalink}}" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">{{ $.Param "read_more_copy" | default (i18n "readMore") }}</a>
-        {{/* TODO: add author
+          <!-- <p class="f6 lh-copy mv0">By {{ .Author }}</p> -->
+          {{/* TODO: add author
         <p class="f6 lh-copy mv0">By {{ .Author }}</p> */}}
       </div>
     </div>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Leaflet Map Example</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.1/dist/leaflet.css" />
+  <style>
+    #map { height: 400px; }
+    #toggleSplitterBtn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 1000;
+        background-color: #fff;
+        padding: 5px 10px;
+        border: 1px solid #ccc;
+        cursor: pointer;
+    }
+    .rightPopup {
+      z-index: 750;
+    }
+  </style>
+</head>
+<body>
+<div id="map"></div>
+<button id="toggleSplitterBtn">Toggle Splitter</button>
+
+<script src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="lib/leaflet-side-by-side/leaflet-side-by-side.js"></script>
+
+<script>
+    var map = L.map('map').setView([24.1422, -110.3167], 10);
+  
+    map.createPane('left');
+    map.createPane('right');
+    
+    var overlay2013 = L.imageOverlay('/images/baja_water/viirs_2013.png', bounds).addTo(map);
+    var overlay2023 = L.imageOverlay('/images/baja_water/viirs_2023.png', bounds).addTo(map);
+  
+    var marker_1 = L.marker([35.5, 24], {
+      pane: 'right'
+    }).addTo(map).bindPopup('Hello, I am a marker!', {
+      pane: 'right',
+      className: 'rightPopup'
+    }).openPopup();
+  
+    var circle = L.circle([35.5, 23.98], {
+      pane: 'right',
+      color: 'red',
+      fillColor: '#f03',
+      fillOpacity: 0.5,
+      radius: 500
+    }).addTo(map).bindPopup('I am a circle - hello .');
+  
+  
+    var sideBySideControl = null;
+  
+    function toggleSplitter() {
+      if (sideBySideControl) {
+        map.removeControl(sideBySideControl);
+        sideBySideControl = null;
+      } else {          
+        sideBySideControl = L.control.sideBySide(overlay2013, overlay2023).addTo(map);
+      }
+    }
+    document.getElementById('toggleSplitterBtn').addEventListener('click', toggleSplitter);
+  </script>
+  
+  </body>
+  </html>

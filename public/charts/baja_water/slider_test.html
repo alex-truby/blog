@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Leaflet Map Example</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.1/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/digidem/leaflet-side-by-side/leaflet-side-by-side.css" />
+  <style>
+    #map {
+      height: 400px;
+    }
+    #toggleSplitterBtn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 1000;
+      background-color: #fff;
+      padding: 5px 10px;
+      border: 1px solid #ccc;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div id="map"></div>
+<button id="toggleSplitterBtn">Toggle Splitter</button>
+
+<script src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/digidem/leaflet-side-by-side/leaflet-side-by-side.js"></script>
+
+<script>
+  // Initialize the map
+  var map = L.map('map').setView([35.5, 23.92], 14);
+
+  // Add the left (OpenStreetMap) layer
+  var openstreetmap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 25,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  });
+
+  // Add the right (Esri Satellite) layer
+  var esriSat = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    maxZoom: 20,
+    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+  });
+
+  // Add the side-by-side slider
+  var sideBySideControl = L.control.sideBySide(openstreetmap, esriSat).addTo(map);
+
+  // Optional: Add a marker for reference
+  L.marker([35.5, 23.92]).addTo(map).bindPopup('This is a reference marker.').openPopup();
+</script>
+
+</body>
+</html>

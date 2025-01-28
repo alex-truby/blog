@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Avenir, sans-serif;
+            text-align: center;
+        }
+
+        #map {
+            width: 100%;
+            height: 500px;
+            margin-top: 20px;
+        }
+
+        #controls {
+            display: inline-block;
+            margin-top: 10px;
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        #controls button {
+            margin: 5px;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            background-color: #f0f0f0;
+        }
+
+        #controls button.active {
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
+    <title>Compare 2013 and 2023 Reflectance</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+    <h1>Compare 2013 and 2023 Reflectance</h1>
+    <div id="controls">
+        <div>
+            <label>Select Layer:</label><br>
+            <button id="btn-2013" class="active">2013 Reflectance</button>
+            <button id="btn-2023">2023 Reflectance</button>
+        </div>
+    </div>
+    <div id="map"></div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <script>
+        // Initialize the map
+        var map = L.map('map').setView([24.1422, -110.3167], 10);
+
+        // Add a base layer
+        var baseLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors',
+        }).addTo(map);
+
+        // Define the bounds for the image overlays
+        var bounds = [[22.694549130472073, -111.88845802008942], [25.590445693035743, -108.73582798145047]];
+
+        // Add the image overlays with a default opacity of 60% (0.6)
+        var overlay2013 = L.imageOverlay('/images/baja_water/hls_savi_dec_2013.png', bounds, { opacity: 0.6 });
+        var overlay2023 = L.imageOverlay('/images/baja_water/hls_savi_dec_2023.png', bounds, { opacity: 0.6 });
+
+        // Add the first overlay by default
+        overlay2013.addTo(map);
+
+        // Get the control elements
+        var btn2013 = document.getElementById('btn-2013');
+        var btn2023 = document.getElementById('btn-2023');
+
+        // Set default active button
+        btn2013.classList.add('active');
+
+        // Handle layer selection
+        btn2013.addEventListener('click', function () {
+            // Show 2013 Reflectance and hide 2023
+            map.removeLayer(overlay2023);
+            overlay2013.addTo(map);
+
+            // Update button styles
+            btn2013.classList.add('active');
+            btn2023.classList.remove('active');
+        });
+
+        btn2023.addEventListener('click', function () {
+            // Show 2023 Reflectance and hide 2013
+            map.removeLayer(overlay2013);
+            overlay2023.addTo(map);
+
+            // Update button styles
+            btn2023.classList.add('active');
+            btn2013.classList.remove('active');
+        });
+    </script>
+</body>
+</html>

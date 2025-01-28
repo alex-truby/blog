@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Water-Resources on Posts</title>
+    <title>Water-Resources on </title>
     <link>http://localhost:1313/tags/water-resources/</link>
-    <description>Recent content in Water-Resources on Posts</description>
+    <description>Recent content in Water-Resources on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 08 Jan 2025 19:51:26 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/water-resources/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Wed, 08 Jan 2025 19:51:26 -0700</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;why-am-i-here&#34;&gt;Why am I here?&lt;/h2&gt;&#xA;&lt;p&gt;As an avid traveler and water nerd, I&amp;rsquo;ve been wanting to combine the two subjects into this passion project for some time now&amp;hellip;&lt;/p&gt;</description>
+      <title>Water in Baja California Sur</title>
+      <link>http://localhost:1313/posts/baja-water-2025/</link>
+      <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/baja-water-2025/</guid>
+      <description>&lt;p&gt;The Baja California Peninsula is a dry, desolate, dusty, and beautiful desert. Driving the length of the peninsula spans just over a thousand miles from Tijuana to Cabo San Lucas (1,040 miles, to be exact). That’s almost the same distance as driving from San Diego to Portland, Oregon. Having driven both stretches in December 2024, I can tell you the variety in landscapes along each route differs drastically. From Oregon to San Diego, you feel as if you’re passing through three or four different countries—maybe even worlds. There’s the rugged Oregon coast, the towering redwoods of Northern California, the rolling hills of wine country, and the Mediterranean-like landscape of Southern California. Once you cross the border into Baja, however, most signs of moisture dissipate, and you’re left with a rugged, dry landscape for the rest of the drive. It doesn’t take long for your vehicle, clothing, and skin to take on the sandy color of the desert.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
