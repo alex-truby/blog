@@ -108,7 +108,7 @@ cascade:
 
 <div class="projects-container">
   <div class="project-card">
-    <img src="/images/london.jpg" alt="gee-water-image" class="project-image-bottom">
+    <img src="/blog/images/london.jpg" alt="gee-water-image" class="project-image-bottom">
     <h5>December 2024</h5>
     <h3 class="project-title">Evaluating the Water Level Gage Network Density of New York City</h3>
     <p>A white paper on water gage depolyment density in NYC.</p>
@@ -126,7 +126,7 @@ cascade:
   </div>
 
   <div class="project-card">
-    <img src="/images/alaska_coast2.jpg" alt="gee-water-image" class="project-image-bottom">
+    <img src="/blog/images/alaska_coast2.jpg" alt="gee-water-image" class="project-image-bottom">
     <h5>July 2024</h5>
     <h3 class="project-title">Unlocking True Water Risk Assessment Worldwide</h3>
     <p>Solutions accelerator blog  outlining the impact of Divirod's work to harness big data for water resources issues.</p>
@@ -144,7 +144,7 @@ cascade:
   </div>
 
   <div class="project-card">
-    <img src="/images/alaska_coast3.jpg" alt="gee-water-image" class="project-image-bottom">
+    <img src="/blog/images/alaska_coast3.jpg" alt="gee-water-image" class="project-image-bottom">
     <h5>July 2024</h5>
     <h3 class="project-title">water-risk-solution-accelerator</h3>
     <p>Solutions accelerator accompanying notebooks highlighting streaming infrastructure I worked on while at Divirod.</p>
@@ -162,7 +162,7 @@ cascade:
   </div>
 
   <div class="project-card">
-    <img src="/images/cv_sunset.jpg" alt="gee-water-image" class="project-image-bottom">
+    <img src="/blog/images/cv_sunset.jpg" alt="gee-water-image" class="project-image-bottom">
     <h5>August 2023</h5>
     <h3 class="project-title">Supporting a rapid, just and equitable transition away from coal</h3>
     <p>Written by Carbon Trust, utilizing anlysis from my time at TransitionZero. </p>
@@ -177,7 +177,7 @@ cascade:
   </div>
 
   <div class="project-card">
-    <img src="/images/fall_temple_roof.jpg" alt="gee-water-image" class="project-image">
+    <img src="/blog/images/fall_temple_roof.jpg" alt="gee-water-image" class="project-image">
     <h5>August 2023</h5>
     <h3 class="project-title">C3PI Methodology Document</h3>
     <p>Technical document outlining TransitionZero's Coal to Clean Price Index (C3PI). </p>
@@ -195,7 +195,7 @@ cascade:
   </div>
 
   <div class="project-card">
-    <img src="/images/japanese_boat.jpg" alt="gee-water-image" class="project-image-custom">
+    <img src="/blog/images/japanese_boat.jpg" alt="gee-water-image" class="project-image-custom">
     <h5>April 2021</h5>
     <h3 class="project-title">Turning the Supertanker (Interactive Report)</h3>
     <p>My first ever front end endevour! An interactive report to accompany TransitionZero's Turning the Supertanker Report. </p>
@@ -210,7 +210,7 @@ cascade:
   </div>
 
   <div class="project-card">
-    <img src="./../../static/images/river.jpg" alt="gee-water-image" class="project-image-bottom">
+    <img src="/blog/images/river.jpg" alt="gee-water-image" class="project-image-bottom">
     <h5>April 2021</h5>
     <h3 class="project-title">Turning the Supertanker (Full Report)</h3>
     <p>Aided in the underlying analysis for this report.</p>

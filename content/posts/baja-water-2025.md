@@ -45,7 +45,8 @@ To assess precipitation trends, I relied on the ‘UCSB-CHG/CHIRPS/DAILY’ data
 
 Using CHIRPS data, I calculated the annual average rate of change in precipitation across BCS from 2013 to 2023 by fitting a linear trend to the time series data. The results are sobering: every hydroshed in BCS shows a decline in precipitation over this period. The most pronounced decreases are found near Cabo San Lucas, one of the peninsula’s fastest-growing municipalities fueled by a booming tourism industry.
 
-<iframe src="/charts/baja_water/basin_precip_map.html" style="width: 100%; height: 400px; border: none;"> </iframe>
+<!-- <iframe src="/charts/baja_water/basin_precip_map.html" style="width: 100%; height: 400px; border: none;"> </iframe> -->
+<iframe src="/blog/charts/baja_water/basin_precip_map.html" style="width: 100%; height: 400px; border: none;"> </iframe>
 
 This trend is particularly alarming as the region’s aquifers are already under pressure to support rapid growth. A decline in surface water recharge could worsen water stress, compounding challenges for communities and ecosystems alike.
 
@@ -56,7 +57,8 @@ Launched in 2002, GRACE detects subtle variations in Earth's gravity field cause
 
 Since GRACE measures total water mass rather than groundwater directly, I isolated groundwater anomalies by subtracting soil moisture anomalies from the total water anomaly. To estimate soil moisture anomalies, I used data from the GLDAS (Global Land Data Assimilation System) model available in GEE. This process involved calculating soil moisture baselines across multiple depth layers (e.g., 0–10 cm, 10–40 cm) for the baseline period (2004–2009) and comparing them to annual soil moisture during the study period (2013–2023). These anomalies represent changes in soil water content that must be accounted for when interpreting GRACE data. Normally, surface water and snowpack contributions would also be subtracted to isolate groundwater changes. However, in this desert peninsula, both surface water and snowmelt have negligible impact and can be safely disregarded.
 
-<iframe src="/charts/baja_water/basin_gwa_map.html" style="width: 100%; height: 400px; border: none;"> </iframe>
+<!-- <iframe src="/charts/baja_water/basin_gwa_map.html" style="width: 100%; height: 400px; border: none;"> </iframe> -->
+<iframe src="/blog/charts/baja_water/basin_gwa_map.html" style="width: 100%; height: 400px; border: none;"> </iframe>
 
 The results of this analysis show that groundwater anomalies in BCS exhibited minimal deviation from the baseline, in contrast to the steady decline observed in precipitation trends. Interestingly, the southernmost, more populated regions of BCS displayed a slight upward trend in groundwater recharge. While this trend was unexpected, I found a few potential causes for this in my research:
 
@@ -73,7 +75,8 @@ Land surface temperature (LST) is a key indicator of water availability and the 
 
 LST is derived from the thermal infrared bands of satellite sensors and is corrected for emissivity, which varies depending on the surface type (e.g., water, vegetation, or bare soil). For this analysis, I used LST data converted from Kelvin to Celsius (°C) to provide a more intuitive understanding of the temperature variations across BCS.
 
-<iframe src="/charts/baja_water/basin_lst_map.html" style="width: 100%; height: 400px; border: none;"> </iframe>
+<!-- <iframe src="/charts/baja_water/basin_lst_map.html" style="width: 100%; height: 400px; border: none;"> </iframe> -->
+<iframe src="/blog/charts/baja_water/basin_lst_map.html" style="width: 100%; height: 400px; border: none;"> </iframe>
 
 One striking feature of the analysis is the elevated land surface temperatures in the central region of BCS, just north of Ciudad Constitución. While I haven’t conducted a detailed investigation into the specific drivers of this phenomenon, there are several factors that could contribute to this localized heat. This area sits in a broad agricultural valley surrounded by arid mountains, where limited vegetation cover and extensive bare soil can amplify temperatures. The region's geography, combined with intense solar radiation, likely contributes to higher heat retention and radiation from the land surface. Additionally, agricultural activities, such as large-scale irrigation, can alter the microclimate by increasing evapotranspiration, while the lack of significant tree cover provides little natural cooling. Anecdotally, having camped in this area, it certainly feels noticeably hotter and dustier compared to other regions of BCS, underscoring the unique climate conditions in the area.
 
@@ -118,13 +121,21 @@ For this analysis, I used L = 0.8, to reflect the sandy and rocky terrain of BCS
 ### Comparing NDVI and SAVI Trends
 While the NDVI trend from 2013 to 2023 is slightly negative, the SAVI trend is essentially constant. The difference between the two trends highlights the role of bare soil and non-vegetative surfaces in influencing NDVI values. In arid regions like BCS, where vegetation is patchy, NDVI may overestimate changes in vegetation health because of its sensitivity to soil reflectance. SAVI, on the other hand, provides a more stable measure by accounting for the influence of soil, which explains why its trend remains unchanged.
 
-<iframe 
+<!-- <iframe 
     src="/charts/baja_water/navi_trend_chart.html" 
+    style="width: 100%; height: 600px; border: none;">
+</iframe> -->
+<iframe 
+    src="/blog/charts/baja_water/navi_trend_chart.html" 
     style="width: 100%; height: 600px; border: none;">
 </iframe>
 
-<iframe 
+<!-- <iframe 
     src="/charts/baja_water/savi_trend_chart.html" 
+    style="width: 100%; height: 600px; border: none;">
+</iframe> -->
+<iframe 
+    src="/blog/charts/baja_water/savi_trend_chart.html" 
     style="width: 100%; height: 600px; border: none;">
 </iframe>
 
@@ -144,15 +155,8 @@ Using the ‘NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG’ dataset, I analyzed changes in 
 
 This rapid growth, combined with increased tourism and rising expectations for modern infrastructure, has led to greater pressure on water resources. Nighttime radiance trends mirror this growth, particularly in Cabo San Lucas, where tourism-driven urbanization has intensified.
 
-Test 1
-<iframe src="/charts/baja_water/map_comparison.html" style="width: 100%; height: 600px; border: none;"> </iframe>
-
-Test 2
+<!-- <iframe src="/blog/charts/baja_water/map_comparison.html" style="width: 100%; height: 600px; border: none;"> </iframe> -->
 <iframe src="/blog/charts/baja_water/map_comparison.html" style="width: 100%; height: 600px; border: none;"> </iframe>
-
-Test 3
-<iframe src="{{ .Site.BaseURL }}blog/charts/baja_water/map_comparison.html" width="800" height="600"></iframe>
-
 
 While desalination plants and conservation efforts are helping to address water demand, the scale of urban and economic growth makes ongoing water management critical. Whether visiting or living in BCS, practicing water conservation is essential in this water-scarce region.
 

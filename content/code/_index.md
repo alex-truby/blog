@@ -92,7 +92,7 @@ cascade:
 
 <div class="projects-container">
   <div class="project-card">
-    <img src="/images/alaska_ice2.jpg" alt="gee-water-image" class="project-image">
+    <img src="/blog/images/alaska_ice2.jpg" alt="gee-water-image" class="project-image">
     <h3 class="project-title">gee-water</h3>
     <p>Python code to utilize Google Earth Engine (GEE) for water resoources earth observation projects.</p>
     <li class="tag-item">
@@ -106,7 +106,7 @@ cascade:
   </div>
 
   <div class="project-card">
-    <img src="/images/sky_braid.jpg" alt="gee-water-image" class="project-image">
+    <img src="/blog/images/sky_braid.jpg" alt="gee-water-image" class="project-image">
     <h3 class="project-title">monthly-electricity-predictions</h3>
     <p>A self contained model service & API for monthly electricity predictions using a sample dataset.</p>
     <li class="tag-item">
@@ -123,7 +123,7 @@ cascade:
   </div>
 
   <div class="project-card">
-    <img src="/images/colorado_river.jpg" alt="gee-water-image" class="project-image">
+    <img src="/blog/images/colorado_river.jpg" alt="gee-water-image" class="project-image">
     <h3 class="project-title">us-cancer-rates-esj</h3>
     <p>An evaluation of cancer rates at the US census tract level using environmental and demographic variables.</p>
     <li class="tag-item">
