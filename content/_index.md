@@ -26,13 +26,13 @@ One last fun fact - I've recently purchased a *grown up* camera to document our 
 
 
 <div class="photo-grid">
-  <img src="../images/seward_alaska.jpg" alt="Photo 1">
-  <img src="../images/dogs.jpg" alt="Photo 4">
-  <img src="../images/van_alaska.jpg" alt="Photo 4">
-  <img src="../images/japanese_temple.jpg" alt="Photo 2">
-  <img src="../images/swiss_sunset.jpg" alt="Photo 3">
-  <img src="../images/swiss_waterfall.jpg" alt="Photo 5">
-  <img src="../images/fall_temple.jpg" alt="Photo 7">
-  <img src="../images/ocean_sunset2.jpg" alt="Photo 8">
-  <img src="../images/fall_temple_roof.jpg" alt="Photo 9">
+  <img src="/blog/images/seward_alaska.jpg" alt="Photo 1">
+  <img src="/blog/images/dogs.jpg" alt="Photo 4">
+  <img src="/blog/images/van_alaska.jpg" alt="Photo 4">
+  <img src="/blog/images/japanese_temple.jpg" alt="Photo 2">
+  <img src="/blog/images/swiss_sunset.jpg" alt="Photo 3">
+  <img src="/blog/images/swiss_waterfall.jpg" alt="Photo 5">
+  <img src="/blog/images/fall_temple.jpg" alt="Photo 7">
+  <img src="/blog/images/ocean_sunset2.jpg" alt="Photo 8">
+  <img src="/blog/images/fall_temple_roof.jpg" alt="Photo 9">
 </div>
