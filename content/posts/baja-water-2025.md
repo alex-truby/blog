@@ -144,7 +144,15 @@ Using the ‘NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG’ dataset, I analyzed changes in 
 
 This rapid growth, combined with increased tourism and rising expectations for modern infrastructure, has led to greater pressure on water resources. Nighttime radiance trends mirror this growth, particularly in Cabo San Lucas, where tourism-driven urbanization has intensified.
 
+Test 1
 <iframe src="/charts/baja_water/map_comparison.html" style="width: 100%; height: 600px; border: none;"> </iframe>
+
+Test 2
+<iframe src="/blog/charts/baja_water/map_comparison.html" style="width: 100%; height: 600px; border: none;"> </iframe>
+
+Test 3
+<iframe src="{{ .Site.BaseURL }}blog/charts/baja_water/map_comparison.html" width="800" height="600"></iframe>
+
 
 While desalination plants and conservation efforts are helping to address water demand, the scale of urban and economic growth makes ongoing water management critical. Whether visiting or living in BCS, practicing water conservation is essential in this water-scarce region.
 
