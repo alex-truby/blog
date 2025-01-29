@@ -210,7 +210,7 @@ cascade:
   </div>
 
   <div class="project-card">
-    <img src="/images/river.jpg" alt="gee-water-image" class="project-image-bottom">
+    <img src="./../../static/images/river.jpg" alt="gee-water-image" class="project-image-bottom">
     <h5>April 2021</h5>
     <h3 class="project-title">Turning the Supertanker (Full Report)</h3>
     <p>Aided in the underlying analysis for this report.</p>
