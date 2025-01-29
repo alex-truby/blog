@@ -5,8 +5,10 @@ description: "Water & Climate Nerd | Adventurer | Yoga Teacher (In Training)"
 theme_version: '2.8.2'
 layout: about_me
 cascade:
-  featured_image: "/images/castle_valley_moon.jpg"
+  featured_image: "/images/oregon_sunset2.jpg"
 ---
+<style>
+</style>
 
 # Welcome!
 
@@ -32,7 +34,7 @@ One last fun fact - I've recently purchased a *grown up* camera to document our 
   <img src="../images/japanese_temple.jpg" alt="Photo 2">
   <img src="../images/swiss_sunset.jpg" alt="Photo 3">
   <img src="../images/swiss_waterfall.jpg" alt="Photo 5">
-  <img src="../images/fall_temple.jpg" alt="Photo 7">
-  <img src="../images/ocean_sunset2.jpg" alt="Photo 8">
+  <img src="../images/takayama_street.jpg" alt="Photo 7">
+  <img src="../images/cacti_dusk.jpg" alt="Photo 8">
   <img src="../images/fall_temple_roof.jpg" alt="Photo 9">
 </div>
