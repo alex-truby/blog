@@ -7,12 +7,6 @@ theme = 'ananke'
   category = "categories"
   tag = "tags"
 
-# Menu Configuration
-[[menu.main]]
-  identifier = "home"
-  name = "Home"
-  url = "/"
-  weight = 1
 
 [[menu.main]]
   identifier = "about"

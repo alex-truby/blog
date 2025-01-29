@@ -22,7 +22,7 @@ Over the past few years as the remote work + van combination have allowed us to 
 
 **My goal with this website is to create a space to showcase my personal technical projects, as well as to tie in some higher level, perhaps non-technical, writing on topics of interest to me**. All of my technical work will be linked to my github. So, whether you are here to take a look at my technical work, or just to explore, I hope you enjoy!
 
-One last fun fact! I've recently purchased a *grown up* camera to document our adventures. All photos you see on this website are my own!
+One last fun fact - I've recently purchased a *grown up* camera to document our adventures. All photos you see on this website are my own!
 
 
 <div class="photo-grid">
