@@ -5,7 +5,7 @@ description: "Water & Climate Nerd | Adventurer | Yoga Teacher (In Training)"
 theme_version: '2.8.2'
 layout: about_me
 cascade:
-  featured_image: "/images/castle_valley_moon.jpg"
+  featured_image: "/images/oregon_sunset2.jpg"
 ---
 
 # Welcome!
