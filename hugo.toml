@@ -94,6 +94,11 @@ cover_dimming_class = "bg-black-20"
 recent_posts_number = 3
 custom_css = ["menu.css", "about_me.css"]
 
+[params.category_images]
+  tech = "/images/castle_valley_moon.jpg"
+  water = "/images/castle_valley_moon.jpg"
+  travel = "/images/castle_valley_moon.jpg"
+
 
 [params.ananke.social.share]
 networks = [

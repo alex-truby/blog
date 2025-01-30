@@ -1,11 +1,22 @@
+{{/* 1. First, get the "normal" featured image for any page/post. */}}
 {{ $featured_image := partial "func/GetFeaturedImage.html" . }}
+
+{{/* 2. If we’re on a category (taxonomy) page, check for a category-specific image. */}}
+{{ with .Data.Term }}
+  {{ $maybeCategoryImage := index $.Site.Params.category_images (lower .) }}
+  {{ if $maybeCategoryImage }}
+    {{ $featured_image = $maybeCategoryImage }}
+  {{ end }}
+{{ end }}
+
+{{/* 3. Continue with your existing header logic. */}}
 {{ if $featured_image }}
   {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
-  {{ $featured_image_class := site.Params.featured_image_class | default "cover bg-top" }}
+  {{ $featured_image_class := $.Site.Params.featured_image_class | default "cover bg-top" }}
   <header class="{{ $featured_image_class }}" style="background-image: url('{{ $featured_image }}');">
-    {{ $cover_dimming_class := site.Params.cover_dimming_class | default "bg-black-60" }}
+    {{ $cover_dimming_class := $.Site.Params.cover_dimming_class | default "bg-black-60" }}
     <div class="{{ $cover_dimming_class }}">
-      {{ partial "site-navigation.html" .}}
+      {{ partial "site-navigation.html" . }}
       <div class="tc-l pv4 pv6-l ph3 ph4-ns">
         <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
           {{ .Title | default .Site.Title }}
@@ -20,7 +31,7 @@
   </header>
 {{ else }}
   <header>
-    <div class="pb3-m pb6-l {{ .Site.Params.background_color_class | default "bg-black" }}">
+    <div class="pb3-m pb6-l {{ $.Site.Params.background_color_class | default "bg-black" }}">
       {{ partial "site-navigation.html" . }}
       <div class="tc-l pv3 ph3 ph4-ns">
         <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
