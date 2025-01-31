@@ -37,6 +37,14 @@ cascade:
     border-radius: 8px;
   }
 
+  .project-image-bottom {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    object-position: bottom center;
+  }
+
   .project-title {
     font-size: 1.2rem;
     margin: 10px 0;
