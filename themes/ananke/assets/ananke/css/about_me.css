@@ -70,10 +70,8 @@
 
 /* Rounded Images */
 .img-rounded {
-    float: left;
-    border-radius: 100px; /* Adjust for more or less rounding */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 40%; /* Optional shadow for depth */
+    border-radius: 15px; /* Adjust for more or less rounding */
+    width: 100%; /* Ensures it scales responsively */
 }
 
 .about-me-img-rounded2 {
@@ -152,6 +150,20 @@
 .photo-grid img {
     width: 100%; /* Ensure images fill their grid cell horizontally */
     height: 200px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Ensures the image is cropped to fit without distortion */
+    border-radius: 5px; /* Optional: adds slight rounding to the corners */
+    overflow: hidden; /* Prevents overflow outside the cell */
+}
+
+.photo-grid-vt {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 10px; /* Space between images */
+}
+
+.photo-grid-vt img {
+    width: 100%; /* Ensure images fill their grid cell horizontally */
+    height: 300px; /* Set a fixed height for uniformity */
     object-fit: cover; /* Ensures the image is cropped to fit without distortion */
     border-radius: 5px; /* Optional: adds slight rounding to the corners */
     overflow: hidden; /* Prevents overflow outside the cell */

@@ -34,6 +34,12 @@ This analysis isn’t an academic study, but rather a personal exploration of wa
 
 If you want to dig into the code used for this analysis, you can visit my github repo [here](https://github.com/alex-truby/gee-water). 
 
+<div class="photo-grid-vt">
+  <img src="/blog/images/baja_water/cacti_sunset.jpg" alt="Photo 1">
+  <img src="/blog/images/cacti_dusk.jpg" alt="Photo 2">
+  <img src="/blog/images/cacti_vertical.jpg" alt="Photo 3">
+</div>
+
 # Analysis (Deep Dive)
 
 ## Precipitation

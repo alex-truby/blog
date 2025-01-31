@@ -5,7 +5,7 @@ description: "Github Repos & Codebase for Personal Projects"
 theme_version: '2.8.2'
 layout: about_me
 cascade:
-  featured_image: "/images/tea_field.jpg"
+  featured_image: "/images/baja_water/cacti_sunset.jpg"
 ---
 <style>
   .projects-container {
