@@ -95,9 +95,9 @@ recent_posts_number = 3
 custom_css = ["menu.css", "about_me.css"]
 
 [params.category_images]
-  tech = "/images/castle_valley_moon.jpg"
-  water = "/images/castle_valley_moon.jpg"
-  travel = "/images/castle_valley_moon.jpg"
+  tech = "/blog/images/castle_valley_moon.jpg"
+  water = "/blog/images/castle_valley_moon.jpg"
+  travel = "/blog/images/castle_valley_moon.jpg"
 
 
 [params.ananke.social.share]
