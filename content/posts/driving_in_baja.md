@@ -10,7 +10,7 @@ tags_weight = 22
 title = 'The Rules of the Road in Baja California'
 +++
 
-# Rainbow Road
+## Rainbow Road
 Driving in Baja is like driving in Mario Cart - but in real life. There is one major highway that snakes across the entire peninsula - Federal Highway 1. This is essentially the ‘rainbow road’ for Baja California. Highway 1 is riddled with potholes, semis blasting around corners in the center of both lanes, cows grazing what little grass is to be found popping up along the highway. Shoulders are essentially non-existent. The general rule of thumb for driving Highway 1 is to go +/- 20 of the posted speed limit - your choice. 
 
 The rules of Bajario Cart on Rainbow Road are as follows:
@@ -32,7 +32,7 @@ One last note about Hwy 1 - the federales check points. There are a handful of c
 <img src="/blog/images/baja_water/road_sunset.jpg" class="br3 w-100" />
 
 
-# In Town
+## In Town
 
 Once you’ve made it to a town, be it a small drive through town along Hwy 1 or a larger city, you are by no means in the clear to default to your ‘normal’ level of ease while driving.
 
@@ -40,5 +40,5 @@ Generally, upon entering a town, there will be a series of speed bumps (“topes
 
 Next, stop signs. Whether or not you are actually supposed to stop for a stop sign depends entirely on how busy the intersection is. Main road? Sure. Side street? You may get rear ended if you come to a full stop. Best practice is to do a quick cursory glance, or just assume no one is coming on the cross street and continue on your way. Spotting a stop sign, similar to spotting a tope, is a bit like a game of eye spy... the stop sign may be hidden behind a tree, on the opposite side of the street, partially bent backwards, painted gray, or just missing on your side of the four-way intersection.
 
-# Buen Viaje!
+## Buen Viaje!
 Driving in Baja, as with many foreign countries, is certainly an adventure. Doing the full drive from north to south brings you through desert, small towns with bumpin’ taco joints late at night, the occasional oasis riddled with palm trees and more green than you’ve seen for hundreds of miles, and so much more. It’s an incredible experience and is a huge part of ‘doing Baja’ in the van - but be prepared for a crazy, incredible journey on the road. 
