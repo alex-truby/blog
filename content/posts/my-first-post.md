@@ -2,7 +2,9 @@
 date = '2025-01-26'
 draft = false
 description = "For now."
-featured_image = "/images/baja_cacti_ocean.jpg"
+featured_image = "/images/cacti_horizontal.jpg"
+tags = ['Thoughts']
+tags_weight = 22
 title = 'The Why Behind This Website'
 +++
 
@@ -12,7 +14,7 @@ wanting to mesh together these personal interests in a way that fosters creativi
 And so, this website was born!
 
 While I do have a rough plan, I'm not quite sure yet where this website will go. I do know that 
-it's initaial purpose will be to allow me to share my personal interests and projects with those 
+it's initial purpose will be to allow me to share my personal interests and projects with those 
 who find their way to these pages.
 
 Much of my content will focus on environmental explorations through technology. There will likely

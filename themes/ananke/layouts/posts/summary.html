@@ -10,21 +10,34 @@
       {{ .Title }}
     </a>
   </h1>
-  <br>
+
+  {{ with .GetTerms "tags" }}
+    <div class="bg-washed-blue pa2 br2 mt2" style="text-align: center;">
+      <ul class="pa0">
+        {{ range . }}
+          <li class="list di">
+            <a href="{{ .RelPermalink }}" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib blue sans-serif">
+              {{- .LinkTitle -}}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  {{ end }}
+
   {{ if $featured_image }}
     <div class="image-container">
-      <!-- <a href="{{.RelPermalink}}" class="db grow"> -->
-        <img src="{{ $featured_image }}" class="img" alt="image from {{ .Title }}">
-      </a>
+      <img src="{{ $featured_image }}" class="img" alt="image from {{ .Title }}">
     </div>
   {{ end }}
   <br>
   <div class="nested-links f5 lh-copy nested-copy-line-height black">
     {{ .Summary  }}
   </div>
-<!-- <a href="{{.RelPermalink}}" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">{{ $.Param "read_more_copy" | default (i18n "readMore") }}</a> -->
-<a href="{{.RelPermalink}}" class="ba b--moon-gray bg-washed-blue br2 black dib f6 hover-bg-moon-gray link mt2 ph2 pv1 black" >{{ $.Param "read_more_copy" | default (i18n "readMore") }}</a>
 
+  <a href="{{.RelPermalink}}" class="ba b--moon-gray bg-washed-blue br2 black dib f6 hover-bg-moon-gray link mt2 ph2 pv1 black">
+    {{ $.Param "read_more_copy" | default (i18n "readMore") }}
+  </a>
 </div>
 
 <style>
@@ -41,5 +54,15 @@
     height: 100%;
     object-fit: cover; /* Ensures the image fills the container while maintaining proportions */
     border-radius: 16px; /* Optional: Adds rounded corners */
+  }
+
+  .tag {
+    display: inline-block;
+    background-color: #f3f4f6; /* Light gray */
+    color: #333;
+    padding: 4px 8px;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    margin: 0 4px;
   }
 </style>

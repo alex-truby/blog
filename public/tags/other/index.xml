@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Other on </title>
+    <link>http://localhost:1313/tags/other/</link>
+    <description>Recent content in Other on </description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 26 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/other/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Why Behind This Website</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;As a water and climate nerd, avid traveler, techie, and novice photographer and writer, I had long been&#xA;wanting to mesh together these personal interests in a way that fosters creativity and learning.&lt;/p&gt;&#xA;&lt;p&gt;And so, this website was born!&lt;/p&gt;&#xA;&lt;p&gt;While I do have a rough plan, I&amp;rsquo;m not quite sure yet where this website will go. I do know that&#xA;it&amp;rsquo;s initaial purpose will be to allow me to share my personal interests and projects with those&#xA;who find their way to these pages.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
