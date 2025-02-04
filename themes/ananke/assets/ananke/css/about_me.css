@@ -154,6 +154,47 @@
     border-radius: 5px; /* Optional: adds slight rounding to the corners */
     overflow: hidden; /* Prevents overflow outside the cell */
 }
+.photo-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.photo-container img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Pop-out effect */
+.photo-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover Text */
+.photo-text {
+    position: absolute;
+    top: 10px;  /* Adjust to place it near the top */
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    opacity: 0;  /* Hidden by default */
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Show text on hover */
+.photo-container:hover .photo-text {
+    opacity: 1;
+}
 
 .photo-grid-vt {
     display: grid;
