@@ -57,7 +57,7 @@ Using CHIRPS data, I calculated the annual average rate of change in precipitati
 <!-- <iframe src="/charts/baja_water/basin_precip_map.html" style="width: 100%; height: 400px; border: none;"> </iframe> -->
 <iframe src="/blog/charts/baja_water/basin_precip_map.html" style="width: 100%; height: 400px; border: none;"> </iframe>
 
-While the trend is certainly alarming, it only includes a decade worth of analysis, including three years of consecutive La Niña which generally results in less rainfall in the region. If precipitation continues on this trajectory however, it could mean a decline in surface recharge for aquifers in the region which are increasingly pressed to support a growing population. 
+While the trend is certainly alarming, it only includes a decade worth of analysis, including three years of consecutive La Niña (2020 - 2013), which generally results in less rainfall in the region. If precipitation continues on this trajectory however, it could mean a decline in surface recharge for aquifers in the region which are increasingly pressed to support a growing population. 
 
 
 ### Groundwater Anomalies
