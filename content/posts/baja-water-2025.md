@@ -1,5 +1,5 @@
 +++
-date = '2025-01-28'
+date = '2025-02-05'
 draft = false
 description = "Where beach meets desert."
 featured_image = "/images/baja_water/sandy_arroyo.jpg"
@@ -11,11 +11,11 @@ title = 'Water in Baja California Sur'
 +++
 
 ## TLDR
-This analysis isn’t an academic study, but rather a curiosity-fueled exploration of water resources in Baja California Sur (BCS), a region where I’ve spent exploring for the last two months. Using only publicly available tools (GEE and EO datasets) and Python, I analyzed precipitation trends, groundwater anomalies, land surface temperature, vegetation health, and urbanization to better understand water stress in this arid peninsula. It is important to reitereate that I am not evaluting long term climatic trends - only very specific variables related to water resources over the last decade. This analysis period contained a triple La Niña event (2020 - 2023), which I do not go into detail on in this post, but should be kept in mind when reviewing the trends presented in the below sections. 
+This analysis isn’t an academic study, but rather a curiosity-fueled exploration of water resources in Baja California Sur (BCS), a region where I’ve spent exploring for the last two months. Using only publicly available tools (GEE and EO datasets) and Python, I analyzed precipitation trends, groundwater anomalies, land surface temperature, vegetation health, and urbanization to better understand water stress in this arid peninsula. It is important to reitereate that I am not evaluting long term climatic trends - only very specific variables related to water resources over the last decade. This analysis period contained a rare triple La Niña event (2020 - 2023), which I do not go into detail on in this post, but should be kept in mind when reviewing the trends presented in the below sections. 
 
 While precipitation and groundwater trends point to increasing challenges in the region, stable vegetation indices and the growing use of desalination plants offer some hope. One of the most pressing concerns for the peninsula might be the ever increasing *demand* for water, driven by the rapid growth in the southern most region near La Paz and Los Cabos. Ultimately, this project was an opportunity to expand my technical skills, dive deeper into a topic I’m passionate about, and share my findings with others interested in water systems and climate challenges in BCS.
 
-If you want to dig into the code used for this analysis, you can visit my GitHub repo [here](https://github.com/alex-truby/gee-water). 
+If you want to dig into the code used for this analysis, you can visit my GitHub repo <a href="https://github.com/alex-truby/gee-water" target="_blank" rel="noopener noreferrer">here</a>.
 
 Additionally, EO is a self-taught space for me, and I'm excited to learn more in this area! If you are aware of any errors or inaccuracies in the workflow presented below, please reach out to me by email at alex.truby15@gmail.com, and I will work to correct them.
 
@@ -39,7 +39,7 @@ This is not an exhaustive or deep-dive study into drought conditions in the regi
 
 <div class="photo-grid-vt">
   <img src="/blog/images/baja_water/cacti_sunset.jpg" alt="Photo 1">
-  <img src="/blog/images/cacti_dusk.jpg" alt="Photo 2">
+  <img src="/blog/images/ocotillo.jpg" alt="Photo 2">
   <img src="/blog/images/cacti_vertical.jpg" alt="Photo 3">
 </div>
 
@@ -52,7 +52,7 @@ For this analysis, I wanted to explore precipitation trends across BCS at the ba
 
 To assess precipitation trends, I relied on the ‘UCSB-CHG/CHIRPS/DAILY’ dataset from GEE. CHIRPS (Climate Hazards Group InfraRed Precipitation with Station data) provides daily global precipitation estimates at a 5.5 km resolution, spanning from 1981 to the present. Its combination of high spatial resolution and multi-decade temporal coverage makes it a go-to dataset for researchers and practitioners in the EO community.
 
-Using CHIRPS data, I calculated the annual average rate of change in precipitation across BCS from 2013 to 2023 by fitting a linear trend to the time series data.  Rather than total precipitation volume within each basin, this approach captures how much rain falls on average in each basin per year, making it easier to compare trends across basins of different areas. The results are sobering: every hydroshed in BCS shows a decline in precipitation over this period. The most pronounced decreases are found near Cabo San Lucas, one of the peninsula’s fastest-growing municipalities fueled by a booming tourism industry.
+Using CHIRPS data, I calculated the annual average rate of change in precipitation across BCS from 2013 to 2023 by fitting a linear trend to the time series data.  Rather than total precipitation volume within each basin, this approach captures how much total rain falls on average for each location in each basin per year, making it easier to compare trends across basins of different areas. The results are sobering: every hydroshed in BCS shows a decline in precipitation over this period. The most pronounced decreases are found near Cabo San Lucas, one of the peninsula’s fastest-growing municipalities fueled by a booming tourism industry.
 
 <!-- <iframe src="/charts/baja_water/basin_precip_map.html" style="width: 100%; height: 400px; border: none;"> </iframe> -->
 <iframe src="/blog/charts/baja_water/basin_precip_map.html" style="width: 100%; height: 400px; border: none;"> </iframe>

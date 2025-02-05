@@ -122,7 +122,7 @@ cascade:
     <img src="/blog/images/london.jpg" alt="gee-water-image" class="project-image-bottom">
     <h5>December 2024</h5>
     <h3 class="project-title">Evaluating the Water Level Gage Network Density of New York City</h3>
-    <p>A white paper on water gage depolyment density in NYC.</p>
+    <p>White paper on water level gage depolyment density, and suggeted future locations to limit coverage disparity.</p>
     <li class="tag-item">
         <a href="https://divirod.com" target="_blank" rel="noopener noreferrer" class="tag-link">Divirod</a>
     </li>
@@ -140,7 +140,7 @@ cascade:
     <img src="/blog/images/alaska_coast2.jpg" alt="gee-water-image" class="project-image-bottom">
     <h5>July 2024</h5>
     <h3 class="project-title">Unlocking True Water Risk Assessment Worldwide</h3>
-    <p>Solutions accelerator blog  outlining the impact of Divirod's work to harness big data for water resources issues.</p>
+    <p>Solutions accelerator blog  outlining the impact of Divirod's work to harness big data for water resources.</p>
     <li class="tag-item">
         <a href="https://divirod.com" target="_blank" rel="noopener noreferrer" class="tag-link">Divirod</a>
     </li>
@@ -209,7 +209,7 @@ cascade:
     <img src="/blog/images/river.jpg" alt="gee-water-image" class="project-image-bottom">
     <h5>April 2021</h5>
     <h3 class="project-title">Turning the Supertanker (Full Report)</h3>
-    <p>Aided in the underlying analysis for this report.</p>
+    <p>Written by the larger team at TransitionZero, I aided in the underlying analysis for this report.</p>
     <li class="tag-item">
         <a href="https://transitionzero.org" target="_blank" rel="noopener noreferrer" class="tag-link">TransitionZero</a>
     </li>

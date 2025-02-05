@@ -6,26 +6,26 @@
     <description>Recent content in Blog Posts on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 28 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Water in Baja California Sur</title>
       <link>http://localhost:1313/posts/baja-water-2025/</link>
-      <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/baja-water-2025/</guid>
-      <description>&lt;h2 id=&#34;tldr&#34;&gt;TLDR&lt;/h2&gt;&#xA;&lt;p&gt;This analysis isn’t an academic study, but rather a curiosity-fueled exploration of water resources in Baja California Sur (BCS), a region where I’ve spent exploring for the last two months. Using only publicly available tools (GEE and EO datasets) and Python, I analyzed precipitation trends, groundwater anomalies, land surface temperature, vegetation health, and urbanization to better understand water stress in this arid peninsula. It is important to reitereate that I am not evaluting long term climatic trends - only very specific variables related to water resources over the last decade. This analysis period contained a triple La Niña event (2020 - 2023), which I do not go into detail on in this post, but should be kept in mind when reviewing the trends presented in the below sections.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TLDR&lt;/h2&gt;&#xA;&lt;p&gt;This analysis isn’t an academic study, but rather a curiosity-fueled exploration of water resources in Baja California Sur (BCS), a region where I’ve spent exploring for the last two months. Using only publicly available tools (GEE and EO datasets) and Python, I analyzed precipitation trends, groundwater anomalies, land surface temperature, vegetation health, and urbanization to better understand water stress in this arid peninsula. It is important to reitereate that I am not evaluting long term climatic trends - only very specific variables related to water resources over the last decade. This analysis period contained a rare triple La Niña event (2020 - 2023), which I do not go into detail on in this post, but should be kept in mind when reviewing the trends presented in the below sections.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Rules of the Road in Baja</title>
       <link>http://localhost:1313/posts/driving_in_baja/</link>
-      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/driving_in_baja/</guid>
       <description>&lt;h2 id=&#34;rainbow-road&#34;&gt;Rainbow Road&lt;/h2&gt;&#xA;&lt;p&gt;Driving in Baja is like driving in Mario Cart - but in real life. There is one major highway that snakes across the entire peninsula - Federal Highway 1. This is essentially the ‘rainbow road’ for Baja California. Highway 1 is riddled with potholes, semis blasting around corners in the center of both lanes, cows grazing what little grass is to be found popping up along the highway. Shoulders are essentially non-existent. The general rule of thumb for driving Highway 1 is to go +/- 20 of the posted speed limit - your choice.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Why Behind This Website</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>&lt;p&gt;As a water and climate nerd, avid traveler, techie, and novice photographer and writer, I had long been&#xA;wanting to mesh together these personal interests in a way that fosters creativity and learning.&lt;/p&gt;&#xA;&lt;p&gt;And so, this website was born!&lt;/p&gt;&#xA;&lt;p&gt;While I do have a rough plan, I&amp;rsquo;m not quite sure yet where this website will go. I do know that&#xA;it&amp;rsquo;s initial purpose will be to allow me to share my personal interests and projects with those&#xA;who find their way to these pages.&lt;/p&gt;</description>
     </item>

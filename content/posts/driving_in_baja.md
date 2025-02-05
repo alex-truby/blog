@@ -1,5 +1,5 @@
 +++
-date = '2025-01-27'
+date = '2025-02-01'
 draft = false
 description = "¡Tope!"
 featured_image = "/images/baja_water/tope.jpg"
