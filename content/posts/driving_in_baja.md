@@ -7,7 +7,7 @@ categories = ['travel']
 categories_weight = 44
 tags = ['travel']
 tags_weight = 22
-title = 'The Rules of the Road in Baja California'
+title = 'The Rules of the Road in Baja'
 +++
 
 ## Rainbow Road

@@ -52,12 +52,13 @@ For this analysis, I wanted to explore precipitation trends across BCS at the ba
 
 To assess precipitation trends, I relied on the ‘UCSB-CHG/CHIRPS/DAILY’ dataset from GEE. CHIRPS (Climate Hazards Group InfraRed Precipitation with Station data) provides daily global precipitation estimates at a 5.5 km resolution, spanning from 1981 to the present. Its combination of high spatial resolution and multi-decade temporal coverage makes it a go-to dataset for researchers and practitioners in the EO community.
 
-Using CHIRPS data, I calculated the annual average rate of change in precipitation across BCS from 2013 to 2023 by fitting a linear trend to the time series data. The results are sobering: every hydroshed in BCS shows a decline in precipitation over this period. The most pronounced decreases are found near Cabo San Lucas, one of the peninsula’s fastest-growing municipalities fueled by a booming tourism industry.
+Using CHIRPS data, I calculated the annual average rate of change in precipitation across BCS from 2013 to 2023 by fitting a linear trend to the time series data.  Rather than total precipitation volume within each basin, this approach captures how much rain falls on average in each basin per year, making it easier to compare trends across basins of different areas. The results are sobering: every hydroshed in BCS shows a decline in precipitation over this period. The most pronounced decreases are found near Cabo San Lucas, one of the peninsula’s fastest-growing municipalities fueled by a booming tourism industry.
 
 <!-- <iframe src="/charts/baja_water/basin_precip_map.html" style="width: 100%; height: 400px; border: none;"> </iframe> -->
 <iframe src="/blog/charts/baja_water/basin_precip_map.html" style="width: 100%; height: 400px; border: none;"> </iframe>
 
-This trend is particularly alarming as the region’s aquifers are already under pressure to support rapid growth. A decline in surface water recharge could worsen water stress, compounding challenges for communities and ecosystems alike.
+While the trend is certainly alarming, it only includes a decade worth of analysis, including three years of consecutive La Niña which generally results in less rainfall in the region. If precipitation continues on this trajectory however, it could mean a decline in surface recharge for aquifers in the region which are increasingly pressed to support a growing population. 
+
 
 ### Groundwater Anomalies
 Groundwater is a lifeline for arid regions like BCS. However, coastal aquifers face growing threats from over-extraction and seawater intrusion—a significant concern for communities relying on these critical water sources. To explore groundwater trends in BCS, I analyzed data from NASA's Gravity Recovery and Climate Experiment (GRACE) satellite mission.
@@ -130,19 +131,11 @@ For this analysis, I used L = 0.8, to reflect the sandy and rocky terrain of BCS
 #### Comparing NDVI and SAVI Trends
 While the NDVI trend from 2013 to 2023 is slightly negative, the SAVI trend is essentially constant. The difference between the two trends highlights the role of bare soil and non-vegetative surfaces in influencing NDVI values. In arid regions like BCS, where vegetation is patchy, NDVI may overestimate changes in vegetation health because of its sensitivity to soil reflectance. SAVI, on the other hand, provides a more stable measure by accounting for the influence of soil, which explains why its trend remains unchanged.
 
-<!-- <iframe 
-    src="/charts/baja_water/navi_trend_chart.html" 
-    style="width: 100%; height: 600px; border: none;">
-</iframe> -->
 <iframe 
     src="/blog/charts/baja_water/navi_trend_chart.html" 
     style="width: 100%; height: 600px; border: none;">
 </iframe>
 
-<!-- <iframe 
-    src="/charts/baja_water/savi_trend_chart.html" 
-    style="width: 100%; height: 600px; border: none;">
-</iframe> -->
 <iframe 
     src="/blog/charts/baja_water/savi_trend_chart.html" 
     style="width: 100vw; max-width: 100%; height: 80vh; border: none;">
