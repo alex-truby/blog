@@ -141,6 +141,11 @@ While the NDVI trend from 2013 to 2023 is slightly negative, the SAVI trend is e
     style="width: 100vw; max-width: 100%; height: 80vh; border: none;">
 </iframe>
 
+<iframe 
+    src="/blog/charts/baja_water/savi_trend_chart.html" 
+    style="width: 100vw; max-width: 100%; height: 80vh; border: none;">
+</iframe>
+
 The lack of a statistically significant rate of change in NDVI or SAVI suggests that vegetation health in BCS has been relatively resilient over the past decade, despite decreasing precipitation trends. This stability may be due to the adaptive nature of desert vegetation, which is well-suited to survive under water-scarce conditions. However, the slight negative trend in NDVI could signal early signs of vegetation stress, potentially linked to more prolonged drought conditions or localized pressures like land use changes.
 
 By incorporating both NDVI and SAVI into this analysis, we gain a more nuanced understanding of vegetation health in BCS, where sparse vegetation and soil reflectance can otherwise obscure the true picture of ecological resilience.
