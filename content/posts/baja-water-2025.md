@@ -34,7 +34,7 @@ But understanding water availability—and the broader impacts of drought—requ
 
 In the following sections, I’ll explore datasets from NASA, NOAA, and other resources available in Google Earth Engine (GEE) to tell the story of water stress in BCS over the past decade. Specifically, I’ll analyze the following indicators: **precipitation, groundwater storage, land surface temperature, vegetation health, and human activity through nighttime radiance**. When combined, these metrics can offer insights into the drivers of the well-documented water stress in BCS. Because I used global datasets available in GEE, the time period for analysis was limited by data availability for each metric. To accommodate this, my analysis covers the years 2013–2023.
 
-This is not an exhaustive or deep-dive study into drought conditions in the region but rather a high-level overview of trends over the last ten years. It’s a snapshot of where we are now, where trends are heading, and what that might mean for development and tourism in Baja California Sur.
+This is not an exhaustive or deep-dive study into drought conditions in the region but rather a high-level overview of trends over the last ten years. It’s a snapshot of where we are now, where trends are heading, and what that might mean for the communities in Baja California Sur.
 
 
 <div class="photo-grid-vt">
