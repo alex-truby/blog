@@ -61,7 +61,7 @@ While the trend is certainly alarming, it only includes a decade worth of analys
 
 
 ### Groundwater Anomalies
-Groundwater is a lifeline for arid regions like BCS. However, coastal aquifers face growing threats from over-extraction and seawater intrusion—a significant concern for communities relying on these critical water sources. To explore groundwater trends in BCS, I analyzed data from NASA's Gravity Recovery and Climate Experiment (GRACE) satellite mission.
+Groundwater is a lifeline for arid regions like BCS. However, coastal aquifers face growing threats from over-extraction and seawater intrusion—a significant concern for communities relying on these critical water sources [1]. To explore groundwater trends in BCS, I analyzed data from NASA's Gravity Recovery and Climate Experiment (GRACE) satellite mission.
 
 Launched in 2002, GRACE detects subtle variations in Earth's gravity field caused by changes in mass distribution. These measurements allow us to track anomalies in terrestrial water storage, including groundwater, soil moisture, surface water, and snow. The data is reported as anomalies—changes in water storage measured in centimeters of equivalent water height relative to a baseline (2004–2009). This approach provides a clearer picture of deviations from typical conditions, highlighting trends and regions under stress.
 
@@ -161,7 +161,7 @@ Using the ‘NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG’ dataset, I analyzed changes in 
 * The Los Cabos area experienced a 50% population increase.
 * The state of BCS as a whole saw an average population increase of 25%.
 
-This rapid growth, combined with increased tourism and rising expectations for modern infrastructure, has led to greater pressure on water resources. Nighttime radiance trends mirror this growth, particularly in Cabo San Lucas, where tourism-driven urbanization has intensified.
+This rapid growth, combined with increased tourism and rising expectations for modern infrastructure, has led to greater pressure on water resources. Nighttime radiance trends mirror this growth, particularly in densly populated areas like La Paz and Cabo San Lucas, where tourism-driven urbanization has intensified.
 
 <!-- <iframe src="/blog/charts/baja_water/map_comparison.html" style="width: 100%; height: 600px; border: none;"> </iframe> -->
 <iframe src="/blog/charts/baja_water/map_comparison.html" style="width: 100%; height: 600px; border: none;"> </iframe>
