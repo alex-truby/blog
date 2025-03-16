@@ -109,7 +109,22 @@ cascade:
   }
 </style>
 
+
 <div class="projects-container">
+
+  <div class="project-card">
+    <img src="/blog/images/alaska_coast.jpg" alt="water-db-image" class="project-image">
+    <h3 class="project-title">water-doc-db</h3>
+    <p>Example workflow of vector database ingest and Gen AI query with water policy docs.</p>
+    <li class="tag-item">
+        <a class="tag-no-link">LLMs</a>
+    </li>
+    <li class="tag-item">
+        <a class="tag-no-link">Water Policy</a>
+      </li>
+    <br>
+    <a href="https://github.com/alex-truby/water-doc-db" class="project-link" target="_blank">View on GitHub</a>
+  </div>
   <div class="project-card">
     <img src="/blog/images/alaska_ice2.jpg" alt="gee-water-image" class="project-image">
     <h3 class="project-title">gee-water</h3>
